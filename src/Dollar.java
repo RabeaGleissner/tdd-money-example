@@ -1,5 +1,5 @@
 public class Dollar {
-    int amount;
+    int amount = 10;
     void times(int multiplier) {
 
     }
