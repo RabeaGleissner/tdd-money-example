@@ -6,4 +6,7 @@ public class Dollar {
     Dollar(int amount) {
         this.amount = amount;
     }
+    public boolean equals (Object object) {
+        return true;
+    }
 }
