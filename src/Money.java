@@ -20,4 +20,9 @@ abstract class Money {
     static Money franc(int amount) {
         return new Franc(amount,"CHF");
     }
+
+    Money(int amount, String currency) {
+        this.amount = amount;
+        this.currency = currency;
+    }
 }

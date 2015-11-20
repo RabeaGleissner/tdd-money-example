@@ -7,7 +7,6 @@ public class Franc extends Money {
         return Money.franc(amount * multiplier);
     }
     Franc (int amount, String currency) {
-        this.amount = amount;
-        this.currency = currency;
+        super(amount, currency);
     }
 }

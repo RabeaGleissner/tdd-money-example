@@ -7,7 +7,6 @@ public class Dollar extends Money {
         return Money.dollar(amount * multiplier);
     }
     Dollar(int amount, String currency) {
-        this.amount = amount;
-        this.currency = currency;
+        super(amount, currency);
     }
 }
