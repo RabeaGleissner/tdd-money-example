@@ -1,5 +1,4 @@
-public class Dollar {
-    private int amount;
+public class Dollar extends Money {
     Dollar times(int multiplier) {
         return new Dollar(amount * multiplier);
     }
