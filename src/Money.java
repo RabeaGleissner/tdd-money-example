@@ -1,4 +1,5 @@
-public class Money {
+abstract class Money {
+    abstract Money times(int multiplier);
     protected int amount;
 
     public boolean equals (Object object) {
