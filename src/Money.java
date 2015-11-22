@@ -1,5 +1,7 @@
-abstract class Money {
-    abstract Money times(int multiplier);
+class Money {
+    Money times(int amount) {
+        return null;
+    }
     protected int amount;
     protected String currency;
 
