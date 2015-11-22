@@ -5,6 +5,9 @@ class Money {
     protected int amount;
     protected String currency;
 
+    public String toString() {
+        return amount + " " + currency;
+    }
     String currency() {
         return currency;
     }
