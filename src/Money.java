@@ -1,7 +1,8 @@
 class Money {
-    Money times(int amount) {
-        return null;
+    Money times(int multiplier) {
+        return new Money(amount * multiplier, currency);
     }
+
     protected int amount;
     protected String currency;
 
