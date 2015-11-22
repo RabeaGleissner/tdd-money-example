@@ -1,5 +1,5 @@
 class Money implements Expression {
-    Money times(int multiplier) {
+    Expression times(int multiplier) {
         return new Money(amount * multiplier, currency);
     }
 
