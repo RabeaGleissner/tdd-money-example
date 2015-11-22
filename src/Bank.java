@@ -10,4 +10,6 @@ public class Bank {
                 ? 2
                 : 1;
     }
+
+    private Hashtable rates= new Hashtable();
 }
