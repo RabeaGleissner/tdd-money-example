@@ -1,4 +1,4 @@
-class Money {
+class Money implements Expression {
     Money times(int multiplier) {
         return new Money(amount * multiplier, currency);
     }
@@ -30,5 +30,9 @@ class Money {
     Money(int amount, String currency) {
         this.amount = amount;
         this.currency = currency;
+    }
+
+    Expression plus(Money addend) {
+        return new Money(amount + addend.amount, currency);
     }
 }
