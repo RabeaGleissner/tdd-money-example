@@ -12,4 +12,8 @@ public class Bank {
     }
 
     private Hashtable rates= new Hashtable();
+
+    void addRate(String from, String to, int rate) {
+        rates.put(new Pair(from, to)), new Integer(rate));
+    }
 }
